@@ -4,15 +4,15 @@ The Email/SMS Spam Classifier is a machine learning-based application that ident
 ## Concept
 The project uses Text Preprocessing and TF-IDF (Term Frequency–Inverse Document Frequency) vectorization to convert textual messages into numerical features. These features are then fed into a pre-trained classification model (e.g., Naïve Bayes, Logistic Regression, etc.) to predict whether a message is spam.<br>
 ## The system works as follows:
-1.User Input: The user enters a message (Email/SMS) into the Streamlit app.<br>
-2.Preprocessing:
+1. User Input: The user enters a message (Email/SMS) into the Streamlit app.<br>
+2. Preprocessing:
  - Lowercasing
  - Tokenization using NLTK
  - Removal of stopwords and punctuation
- - Stemming using Porter Stemmer
-3.Feature Extraction: Using a pre-trained TF-IDF Vectorizer.<br>
-4.Prediction: The model predicts whether the message is spam (1) or not spam (0).<br>
-5.Result Display: Output is shown in a clean, user-friendly interface.<br>
+ - Stemming using Porter Stemmer <br>
+3. Feature Extraction: Using a pre-trained TF-IDF Vectorizer. <br>
+4. Prediction: The model predicts whether the message is spam (1) or not spam (0). <br>
+5. Result Display: Output is shown in a clean, user-friendly interface. <br>
 ## Libraries Used
  - nltk – For tokenization, stopword removal, and stemming.
  - streamlit – For creating the interactive web interface.
