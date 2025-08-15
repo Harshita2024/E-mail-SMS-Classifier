@@ -25,15 +25,15 @@ The project uses Text Preprocessing and TF-IDF (Term Frequency–Inverse Documen
  - Tokenize into words.
  - Remove non-alphanumeric tokens.
  - Remove stopwords & punctuation.
- - Apply stemming.<br>
+ - Apply stemming. <br>
  2. Model & Vectorizer Loading
- The pre-trained TF-IDF Vectorizer and classification model are loaded from vectorizer.pkl and model.pkl using pickle.<br>
+ The pre-trained TF-IDF Vectorizer and classification model are loaded from vectorizer.pkl and model.pkl using pickle. <br>
  3. Prediction
  - The preprocessed text is transformed into a TF-IDF vector.
  - The model predicts the message category (Spam or Not Spam).
- - Prediction probabilities are also computed for transparency.<br>
+ - Prediction probabilities are also computed for transparency. <br>
  4. Deployment with Streamlit
- - The application is deployed using Streamlit, allowing users to interact with the model via a web interface.<br>
+ - The application is deployed using Streamlit, allowing users to interact with the model via a web interface. <br>
 ## How to Run Locally
  1. Clone the repository
     git clone <repo_link>
