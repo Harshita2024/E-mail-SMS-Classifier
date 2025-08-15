@@ -7,6 +7,7 @@ from nltk.stem.porter import PorterStemmer
 
 # Download required NLTK data
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 # nltk.download('all')
 
@@ -58,4 +59,5 @@ if st.button('Predict'):
         else:
             st.header("✅ Not Spam")
     else:
+
         st.warning("Please enter a message before predicting.")
